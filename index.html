@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Frontend Mentor | Expenses chart component</title>
+
+    <!-- font family link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <!-- link css -->
+    <link rel="stylesheet" href="./css/app.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="container">
+        <header class="header">
+          <div>
+            <span class="header-heading">My balance</span>
+            <p class="header-total">$921.48</p>
+          </div>
+          <div class="header-cir">
+            <div class="white circle"></div>
+            <div class="dark circle"></div>
+          </div>
+        </header>
+        <main class="card">
+          <h2 class="card-heading">Spending - Last 7 days</h2>
+          <section id="columms" class="card-columms"></section>
+          <div class="card-total">
+            <div class="this-mounth">
+              <p>Total this month</p>
+              <p>$478.33</p>
+            </div>
+            <div class="last-mounth">
+              <p>+2.4%</p>
+              <p>from last month</p>
+            </div>
+          </div>
+        </main>
+      </div>
+    </div>
+  </body>
+</html>
+<script type="module" src="./index.js"></script>
